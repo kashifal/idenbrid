@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+html
+{
+    overflow-x: hidden;
+}
+
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.navbar
+{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar96
+{
+    height: 100%;
+    width: 90%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar50-left
+{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+}
+.navbar50-left img
+{
+    width: 20%;
+}
+
+
+.navbar50-right
+{
+    height: 100%;
+    width: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navbar50-right a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 10px;
+    font-size: 15px;
+    padding: 10px 20px;
+
+}
+.navbar50-right a:nth-child(1)
+{
+    color:rgb(0, 189, 189);
+    font-size: 25px;
+}
+
+ 
+
+
+
+.navbar50-right a:nth-child(4)
+{
+    background: rgb(0, 189, 189);
+    border-radius: 10px;
+}
+/*Navbar style ends here*/
+
+
+/*banner style here*/
+.heading
+{
+    font-size: 35px;
+    margin-top: 10vh;
+    margin-left: 5%;
+    font-family: 'Poppins';
+    
+}
+
+.banner
+{
+    height: 50vh;
+    width: 100vw; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner96
+{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner50-left
+{
+    width: 45%; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.banner50-left p
+{
+    line-height: 24px;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    
+}
+.banner50-right
+{
+    width: 50%; 
+    height: 100%;
+    margin-top: 10px;
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url('banner-img.jpg');
+    background-size: cover; 
+}
+.card
+{
+    min-height:90%;
+    min-width:40%;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px 20px;
+    margin-right: 20px;
+font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.card span
+{
+    padding: 5px 20px;
+    border-radius: 10px;
+    background: grey;
+    color:white;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+.card p
+{
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: left;
+    font-family: 'Montserrat';
+}
+ul
+{
+    position: relative;
+}
+ul li
+{
+    text-align: left;
+    font-size: 15px; 
+    font-family: 'montserrat';
+    text-decoration: none;
+    list-style: none;
+}
+ul li::before
+{
+    content: '✓';
+
+}
+.registerNOw
+{
+    height: 20%; 
+    width: 100%; 
+}
+.registerNOw p
+{
+    font-size: 15px;
+    text-align: left;
+    display: inline;
+    font-family: 'montserrat';
+}
+.registerNOw span
+{
+    background: transparent;
+    font-size: 10px;
+    display: inline-flex;
+}
+.registerNOw a
+{
+padding: 10px 70px;
+text-decoration: none; 
+color: white;
+background: rgb(0, 189, 189);
+width: 100%;
+}
+
+.next-banner
+{
+    height: 50vh;
+    width: 100vw;
+    background: #d8d8d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.next-banner96
+{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.next50-left
+{
+    height: 100%;
+    width: 40%;
+    background-image: url('https://images.unsplash.com/flagged/photo-1563806164210-953cdaab14cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJpa2UlMjByYWNpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'); 
+    background-size: cover;
+}
+
+.next50-right
+{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;  
+    justify-content: flex-start;
+}
+
+.card1
+{
+    height:90%;
+    width:50%; 
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px 20px;
+    margin-right: 20px;
+font-size: 12px;
+float: left;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.card1 .span
+{ 
+    
+    text-align: left;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Poppins';
+}
+.card1 p
+{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-top: -40px;
+    text-align: left;
+    font-family: 'Montserrat';
+}
+
+
+/*
+
+
+Media Queries 
+
+
+*/
+
+@media all and (max-width:1000px)
+{
+    .banner96
+    {
+        height: 100%;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction:column-reverse;
+    }
+    .banner50-left
+{
+    width: 100%; 
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.banner50-right
+{
+    width: 100%; 
+    height: 60%;
+    margin-top: 10px;
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url('banner-img.jpg');
+    background-size: cover; 
+}
+
+.headings
+{
+    font-size: 35px;
+    margin-top: 10vh;
+    margin-left: 5%;
+    font-family: 'Poppins';
+    
+}
+
+.next-banner
+{
+    height: 50vh;
+    width: 100vw;
+    background: #d8d8d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.next50-left
+{
+    height: 50%;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/flagged/photo-1563806164210-953cdaab14cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJpa2UlMjByYWNpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'); 
+    background-size: cover;
+}
+
+.next50-right
+{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;  
+    justify-content: flex-start;
+}
+.headings
+{
+    font-size: 35px;
+    margin-top: 20vh;
+    margin-left: 5%;
+    font-family: 'Poppins';
+    
+}
+
+
+.card1
+{
+    height:90%;
+    width:100%; 
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px 20px;
+    margin-right: 20px;
+font-size: 12px;
+float: left;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card1 p
+{
+    font-size: 15px;
+    margin-top: 10px;
+    overflow: auto;
+    text-align: left;
+    font-family: 'Montserrat';
+}
+}
+@media all and (max-width:700px)
+{
+
+.headings
+{
+    font-size: 20px;
+    margin-top: 20vh;
+    margin-left: 5%;
+    font-family: 'Poppins';
+    
+}
+.heading{
+    font-size: 20px;
+}
+}
